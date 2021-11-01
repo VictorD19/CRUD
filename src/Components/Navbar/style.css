@@ -1,0 +1,30 @@
+.navbar-nav{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 15px;
+    align-items: center;
+}
+.navbar-nav>button{
+  margin: 0;
+  padding: 4px;
+}
+.navbar-nav> a{
+  transition: 0.3s all ease;
+  position: relative;
+}
+.navbar-nav> a::before{
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 1.8px;
+  background:#325fd7;
+ bottom: 6px;
+ left: 0px;
+ transition: 0.3s all ease-in;
+}
+.navbar-nav> a:hover:before{
+  width: 100%;
+
+
+}

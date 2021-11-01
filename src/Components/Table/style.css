@@ -1,0 +1,18 @@
+.table{
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    text-align: center;
+    width: 80%;
+}
+.group-button-table > button{
+ color: #fff;
+ padding: 3px 5px;
+ margin: 0 5px 0 0;
+ transform: scale(0.95);
+ transition: 0.3s all ease;
+}
+.group-button-table > button:hover{
+    color: #fff;
+    transform: scale(1);
+
+   }

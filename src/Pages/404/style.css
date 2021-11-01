@@ -1,0 +1,10 @@
+.page-404{
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page-404 > img{
+    width: 500px;
+    margin-top: 50px;
+}

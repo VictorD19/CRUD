@@ -1,0 +1,12 @@
+.formCreate{
+    width: 500px;
+}
+.group-btn-form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.group-sex{
+    display: flex;
+    justify-content: center;
+}
